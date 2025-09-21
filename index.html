@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Navbar with Classes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #222;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-logo {
+            font-size: 22px;
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar-menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-item {
+            margin-left: 20px;
+        }
+
+        .navbar-link {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .navbar-link:hover {
+            color: #ff9800;
+        }
+    </style>
 </head>
+
 <body>
-    <section id ="main">
-    <div class ="div1">
-        <div class="div2">
-            <p class="name">My name is CCR</p>
-            <ul class="div3">
-                <li class="div4">a</li>
-                <li class="div4">b</li>
-                <li class="div4">c</li>
-                <li class="div4">d</li>
-                    <li class="div4">e</li>
-        </div>
-    </div>
-    </section>
+
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">MySite</a>
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">About</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Services</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+        </ul>
+    </nav>
+
 </body>
+
 </html>
