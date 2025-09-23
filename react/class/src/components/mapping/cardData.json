@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "heading": "Card One",
+    "paragraph": "This is the description for card one."
+  },
+  {
+    "id": 2,
+    "heading": "Card Two",
+    "paragraph": "This is the description for card two."
+  },
+  {
+    "id": 3,
+    "heading": "Card Three",
+    "paragraph": "This is the description for card three."
+  }
+]
