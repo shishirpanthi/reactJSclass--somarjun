@@ -1,8 +1,9 @@
 [
   {
     "id": 1,
-    "heading": "Card One",
-    "paragraph": "This is the description for card one."
+    "heading": "Card e",
+    "paragraph": "This is the description for card one.",
+    "image":"/svg"
   },
   {
     "id": 2,
@@ -13,5 +14,11 @@
     "id": 3,
     "heading": "Card Three",
     "paragraph": "This is the description for card three."
+  },
+   {
+    "id": 4,
+    "heading": "Card four",
+    "paragraph": "This is the description for card three.",
+    "image":"./vite.svg"
   }
 ]

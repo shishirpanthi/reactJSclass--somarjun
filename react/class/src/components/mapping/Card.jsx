@@ -6,11 +6,12 @@ const Card = () => {
   return (
     <div className="card-container">
       {data.map((item) => (
-        <div key={item.id} className="card">
+          <div key={item.id} className="card" >
+              <img src={item.image} alt={item.heading} className="card-image" />
           <h2>{item.heading}</h2>
           <p>{item.paragraph}</p>
         </div>
-      ))}
+      ))}  
     </div>
   );
 };
