@@ -49,6 +49,12 @@ export default function ContactUs() {
           onChange={handleChange}
           placeholder="Write your message"
         ></textarea>
+        <textarea
+          name="message"
+          value={form.message}
+          onChange={handleChange}
+          placeholder="Write your message"
+        ></textarea>
 
         <button type="submit">Send</button>
       </form>
