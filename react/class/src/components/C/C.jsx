@@ -15,6 +15,7 @@ const DashboardCard = () => {
             <Icon className={styles.icon} />
             <h2 className={styles.count}>{item.count}</h2>
             <p className={styles.description}>{item.description}</p>
+            <p className={styles.description}>{item.description}</p>
           </div>
         );
       })}
