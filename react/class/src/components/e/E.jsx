@@ -4,7 +4,9 @@ function E() {
   return (
     <div>
       hello world
+      <p>featured</p>
     </div>
+    
   )
 }
 
